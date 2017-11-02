@@ -231,7 +231,7 @@ val value = if (string.isEmpty()) { // Okay
 
 ## Indentation
 
-Each time a new block or block-like construct is opened, the indent increases by four spaces. When the block ends, the indent returns to the previous indent level. The indent level applies to both code and comments throughout the block.
+Each time a new block or block-like construct is opened, the indent increases by two spaces. When the block ends, the indent returns to the previous indent level. The indent level applies to both code and comments throughout the block.
 
 
 ## One statement per line
