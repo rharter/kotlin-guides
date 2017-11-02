@@ -267,13 +267,13 @@ Note: The primary goal for line wrapping is to have clear code, _not necessarily
 
 ### Continuation indent
 
-When line-wrapping, each line after the first (each _continuation line_) is indented at least +8 from the original line.
+When line-wrapping, each line after the first (each _continuation line_) is indented at least +4 from the original line.
 
-When there are multiple continuation lines, indentation may be varied beyond +8 as desired. In general, two continuation lines use the same indentation level if and only if they begin with syntactically parallel elements.
+When there are multiple continuation lines, indentation may be varied beyond +4 as desired. In general, two continuation lines use the same indentation level if and only if they begin with syntactically parallel elements.
 
 ### Functions
 
-When a function signature does not fit on a single line, break each parameter declaration onto its own line. Parameters defined in this format should use a continuation indent (+8). The closing parenthesis (`)`) and return type are placed on their own line with no additional indent.
+When a function signature does not fit on a single line, break each parameter declaration onto its own line. Parameters defined in this format should use a continuation indent (+4). The closing parenthesis (`)`) and return type are placed on their own line with no additional indent.
 
 ```kotlin
 fun <T> Iterable<T>.joinToString(
